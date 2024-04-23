@@ -125,7 +125,10 @@ robots' positions, ball speed or any other property that is causing
 the violation before being penalized additional times.
 
 ===== Attacker Touched Ball In Opponent Defense Area
-The ball must not be touched by a robot, while the robot is partially or fully inside the opponent <<Defense Area, defense area>>.
+If the attacking robot touches the ball within the <<Defense Area, defense area>>, it can remain there for 5 seconds after the touch. If this time is exceeded and the robot remains in the area, it will be considered a foul.
+
+NOTE: If the attacking robot pushes the defender into the defensive area, it will not be considered a foul. This situation should be assessed by the human referee or according to <<Crashing>>.
+
 
 ===== Ball Speed
 A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
