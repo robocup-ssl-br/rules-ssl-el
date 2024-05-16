@@ -88,7 +88,6 @@ NOTE: The information shown in this table here may be incomplete. Please read th
 
 6+| *While Match is Running*
 || <<No Progress In Game, NO_PROGRESS_IN_GAME>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Force Start>> | no | game controller
-|| <<Double Touch, ATTACKER_DOUBLE_TOUCHED_BALL>> | <<Ball In And Out Of Play, ball in play>> | <<Stop>> -> <<Free Kick>> | no | auto referee
 
 | 5+| *Ball Leaving the Field*
 || <<Scoring Goals, POSSIBLE_GOAL>> | <<Ball In And Out Of Play, ball in play>> | <<Halt>> | no | auto referee
