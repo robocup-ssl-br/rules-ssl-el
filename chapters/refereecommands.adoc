@@ -115,8 +115,6 @@ The ball placement position for a free kick depends on the event that led to the
 
 When the free kick command is issued, robots of the attacking team are allowed to approach the ball while robots of the defending team still have to stay at least 0.5 meters distance away from the ball (the same distance as in stop). One robot of the attacking team is allowed to shoot the ball. This robot will be referred to as the kicker. A goal may be scored directly from the free kick.
 
-When the ball is <<Ball In And Out Of Play, in play>>, the kicker may not touch the ball until it has been touched by another robot or the game has been stopped (see <<Double Touch, double touch>>). Also, the restrictions regarding the robot positions are lifted.
-
 .Usage
 Free kicks are used to restart the game after a <<Fouls, foul>> has occurred. Additionally, <<Goal Kick, goal kicks>> and <<Corner Kick, corner kicks>> are mapped to free kicks.
 
@@ -178,8 +176,6 @@ The match is resumed when
 * the ball moved at least 0.05 meters following a <<Kick-Off, kick-off>>, <<Free Kick, free kick>> or <<Penalty Kick, penalty kick>>.
 * 10 seconds passed following a <<Kick-Off, kick-off>>.
 * 10 seconds passed following a <<Free Kick, free kick>>.
-
-NOTE: see <<Double Touch, double touch>> for the rationale of the 0.05 meter distance
 
 
 === Sanctions
