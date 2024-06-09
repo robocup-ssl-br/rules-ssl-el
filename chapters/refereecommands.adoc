@@ -141,10 +141,7 @@ The procedure of a penalty kick is as follows:
 . When the ball is <<Ball In And Out Of Play, in play>>, the defending keeper may move freely again.
 . If the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds, the game is <<Stop, stopped>>.
 
-A goal is awarded if:
-
-* the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued.
-* the defending team commits any <<Fouls, foul>>.
+A goal is awarded if the ball touches the inner surface of a goal wall or the ground of the goal of the defending team, starting from when the <<Normal Start, normal start>> command is issued.
 
 The game is continued with a <<Kick-Off, kick-off>> when a goal is awarded.
 
@@ -154,6 +151,8 @@ A goal is not awarded if:
 * the defending keeper touches the ball such that the ball speed vector changes direction by at least 90 degrees in 2D space.
 * the attacking team violates any rule.
 * the ball is still <<Ball In And Out Of Play, in play>> after 10 seconds.
+
+If the defending team commits any foul during a Penalty Kick, it will be punished with a red card and the Penalty Kick will be retaken.
 
 The game is continued by a <<Goal Kick, goal kick>> for the defending team when a goal is not awarded.
 
@@ -210,7 +209,7 @@ Yellow cards can also be given by the referee to punish <<Fouls, fouls>> or <<Un
 A red card behaves like a <<Yellow Card, yellow card>>, except: It does not expire until the end of the game.
 
 .Usage
-Red cards are given by the referee to punish severe <<Fouls, fouls>> or <<Unsporting Behavior,unsporting behavior>>.
+Red cards are given by the referee to punish severe <<Fouls, fouls>>, <<Unsporting Behavior,unsporting behavior>> or in <<Penalty Kick, Penalty Kick>>.
 
 NOTE: For example, serious violent contact by the robots or disrespectful behavior towards the referees can result in a red card.
 
