@@ -21,9 +21,6 @@ The dribbling device present in the Regular League will not be allowed in the SS
  
 Dribbling devices actively exert spin on the ball, which keeps the ball in contact with the robot. They are limited by these conditions:
 
-* The dribbling device must not elevate the ball from the ground
-* Another robot must be able to remove the ball from a robot with the ball.
-* A robot must not take full control of the ball by removing all of its degrees of freedom.
 * 80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
