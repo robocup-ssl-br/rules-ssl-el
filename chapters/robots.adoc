@@ -19,9 +19,9 @@ A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any 
 ==== Dribbling Device
 The dribbling device present in the Regular League will not be allowed in the SSL-EL. Robots can have the device, but it will not be allowed to be activated during the game.
  
-Dribbling devices actively exert spin on the ball, which keeps the ball in contact with the robot. They are limited by these conditions:
+The definition fo a so-called "dribbling device" is: a device that actively exert spin on the ball, which keeps the ball in contact with the robot.
 
-* 80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
+NOTE: 80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
 ==== Vision Pattern
 All participating teams must adhere to the given operating requirements of the <<Vision, shared vision system>>. In particular, teams are required to use a certain set of standardized colors and patterns on top of their robots.
