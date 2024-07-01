@@ -19,7 +19,7 @@ A robot must fit inside a 0.18 meters wide and 0.15 meters high cylinder at any 
 ==== Dribbling Device
 The dribbling device present in the Regular League will not be allowed in the SSL-EL. Robots can have the device, but it will not be allowed to be activated during the game.
  
-The definition fo a so-called "dribbling device" is: a device that actively exert spin on the ball, which keeps the ball in contact with the robot.
+The definition of a so-called "dribbling device" is as follows: a device that actively exerts spin on the ball and keeps the ball in contact with the robot.
 
 NOTE: 80% of the area of the ball when viewed from above has to be outside the convex hull around the robot. This limitation applies as well to all kicking devices, even if such infringement is momentary.
 
