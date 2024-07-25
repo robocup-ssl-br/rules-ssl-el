@@ -113,7 +113,7 @@ NOTE: If a team does not want to use a keeper, it may select the id of a robot t
 
 === Game Stages
 ==== Overview
-An official match of the Small Size League consists of the following stages:
+An official match of the SSL-EL consists of the following stages:
 
 |===
 | Game Stage | Duration
