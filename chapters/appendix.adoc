@@ -171,3 +171,23 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 * The automatic <<Ball Placement, ball placement>> procedure is mandatory for division A and optional for division B.
 * The <<aimless-kick, aimless kick>> rule only applies to division B.
 * Division A has shorter timeouts in some situations.
+
+[appendix]
+== Tiebreak criteria
+The following tiebreak criteria must be apllied in case of group stage ranking (to order the teams qualification) or at a no progess situation in a shoot out. In case of group stage, the tiebreak criteria are summed over the course of the matches, but at an elimination match, the criteria are reseted.
+
+. Most points.
+. Fewest mactches played.
+. Most wins.
+. Most ties. 
+. Fewest loses.
+. Most goals for.
+. Fewest goals against.
+. Most goals differential.
+. Robots perform a kickoff? (0 or 1 point).
+. Robots move according to the ball position? (0 or 1 point).
+    * E.g. goalkepper movement or defenders forming a barrier at defensive situations.
+. Robots respect the Game Controller commands? (0, 1, 2 or 3 points).
+    * If the robots respects the Halt command, one point is added (the robots can`t move at the Halt command).
+    * If the robots respects the Stop command, one point is added (the robots can`t commit fouls at Stop commands at least half the time).
+    * If the robots respects the Force Start command, one point is added (the robots needs to move at the Force Start command).
