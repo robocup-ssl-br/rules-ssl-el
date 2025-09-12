@@ -174,7 +174,7 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 
 [appendix]
 == Tiebreak criteria
-The following tiebreak criteria must be apllied in case of group stage ranking (to order the teams qualification) or at a no progess situation in a shoot out. In case of group stage, the tiebreak criteria are summed over the course of the matches, but at an elimination match, the criteria are reseted.
+The following tiebreak criteria must be apllied in case of group stage ranking (to order the teams qualification) or at a no progess situation in a shoot out. In case of group stage, the tiebreak criteria are summed over the course of the matches, but at an elimination match, the criteria are reseted. Finally, the criteria are listed in order of greatest relevance.
 
 . Most points.
 . Fewest mactches played.
