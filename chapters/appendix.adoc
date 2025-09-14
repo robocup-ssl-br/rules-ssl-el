@@ -193,3 +193,5 @@ The criteria are listed below in order of priority, from most to least significa
     * If the robots respects the Halt command, one point is added (the robots can`t move at the Halt command).
     * If the robots respects the Stop command, one point is added (the robots can`t commit fouls at Stop commands at least half the time).
     * If the robots respects the Force Start command, one point is added (the robots needs to move at the Force Start command).
+
+If the criteria don't break the tie in an elimination match, a coin will be flipped to decide the winner.
