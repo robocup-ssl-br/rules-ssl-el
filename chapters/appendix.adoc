@@ -174,16 +174,18 @@ This is a complete list of differences between <<Divisions, division>> A and <<D
 
 [appendix]
 == Tiebreak criteria
-The following tiebreak criteria must be apllied in case of group stage ranking (to order the teams qualification) or at a no progess situation in a shoot out. In case of group stage, the tiebreak criteria are summed over the course of the matches, but at an elimination match, the criteria are reseted. Finally, the criteria are listed in order of greatest relevance.
+
+The following tiebreak criteria must be applied in the event of a group stage ranking (to determine team qualification order) or when a shootout ends in a stalemate.
+
+* In the group stage: the criteria are cumulative, meaning they are calculated over the entire course of the matches.
+* In elimination matches: the criteria are reset, meaning they apply only to that specific match and do not carry over.
+
+The criteria are listed below in order of priority, from most to least significant.
 
 . Most points.
-. Fewest mactches played.
 . Most wins.
-. Most ties. 
-. Fewest loses.
-. Most goals for.
-. Fewest goals against.
 . Most goals differential.
+. Most goals for.
 . Robots perform a kickoff? (0 or 1 point).
 . Robots move according to the ball position? (0 or 1 point).
     * E.g. goalkepper movement or defenders forming a barrier at defensive situations.
