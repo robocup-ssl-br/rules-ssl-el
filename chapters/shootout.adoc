@@ -18,7 +18,7 @@ NOTE: Note that <<Timeouts, timeouts>> are not allowed during shoot-out.
 NOTE: If there is no clear progress in determining a winner
 (after 10 shoot-outs, if both teams time out doing shoot-outs, or if both teams cannot prepare and execute the penalty kick),
 the human referee can give both teams 10 minutes to change their system.
-If the allotted time is insufficient, the tiebreak criteria in the appendix section will be applied.
+If the allotted time is insufficient, the tiebreak criteria (see <<Tiebreak criteria>>) will be applied.
 
 .Usage
 Shoot-Out is used to determine the winner of an elimination match if both teams scored the same amount of goals in previous <<Game Stages, game stages>>.
