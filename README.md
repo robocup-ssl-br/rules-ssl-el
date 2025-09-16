@@ -1,6 +1,6 @@
 # RoboCup Small Size League Entry Level rules
 
-This is the AsciiDoc source for the official RoboCup Small Size League Entre Level rules.
+This is the AsciiDoc source for the official RoboCup Small Size League Entry-Level rules.
 
 
 ## Build 
