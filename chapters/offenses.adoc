@@ -1,20 +1,8 @@
 == Offenses
 === No Progress In Game
-If there is no progress in the game for 5 seconds (Division A) or 10 seconds (Division B) while both teams are allowed to
+If there is no progress in the game for 10 seconds while both teams are allowed to
 <<Ball Manipulation, manipulate the ball>>, the game is <<Stop, stopped>>
 and continued by a <<Force Start, forced start>>.
-
-=== Double Touch
-When the ball is brought <<Ball In And Out Of Play, into play>> following a <<Kick-Off, kick-off>> or <<Free Kick, free kick>>,
-the kicker is not allowed to touch the ball until it has been touched by another robot or the game has been stopped.
-
-The ball must have moved at least 0.05 meters to be considered as <<Ball In And Out Of Play, in play>>.
-
-A double touch results in a <<Stop, stop>> followed by a <<Free Kick, free kick>> from the same ball position.
-
-NOTE: It is understood that the ball may be bumped by the robot multiple times over a short distance while the kick is being taken.
-This is why a distance of 0.05 meters is used to decide whether a robot violates this rule or not.
-Remaining in contact with the ball for more than 0.05 meters also counts as double touch, even though technically the robot only touched the ball once.
 
 === Unsporting Behavior
 Unsporting behavior can lead to <<Yellow Card, yellow cards>>, <<Red Card, red cards>>, <<Penalty Kick, penalty kicks>>, a <<Forced Forfeit, forced forfeit>> or a <<Disqualification, disqualification>>. The human <<Referee, referee>> chooses an appropriate sanction, depending on the severity of the offense.
@@ -104,15 +92,7 @@ increased.
 A robot must not kick the ball over the field boundary such that the ball leaves the field.
 
 ===== Keeper Held Ball
-The ball must not be kept in the <<Defense Area, defense area>> for more than
-5 seconds (Division A) or 10 seconds (Division B).
-
-===== Excessive Dribbling
-A robot must not <<Dribbling Device, dribble>> the ball further than 1 meter, measured linearly from the ball location where the dribbling started. A robot begins dribbling when it makes contact with the ball and stops dribbling when there is an observable separation between the ball and the robot.
-
-NOTE: Dribblers can still be used to dribble large distances with the ball as long as the robot periodically loses possession, such as kicking the ball ahead of it as human soccer players often do.
-
-
+The ball must not be kept in the <<Defense Area, defense area>> for more than 10 seconds.
 
 ==== Non Stopping Fouls
 Fouls in this section do not cause a <<Stop, stop>>.
@@ -127,11 +107,14 @@ the violation before being penalized additional times.
 ===== Attacker Touched Ball In Opponent Defense Area
 The ball must not be touched by a robot, while the robot is partially or fully inside the opponent <<Defense Area, defense area>>.
 
+===== Robot Speed
+The robot must not exceed a speed of 1.5 meters per second.
+
 ===== Ball Speed
-A robot must not accelerate the ball faster than 6.5 meters per second in 3D space.
+A robot must not accelerate the ball faster than 3 meters per second in 3D space.
 
 ===== Crashing
-At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 1.5 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
+At the moment of collision of two robots of different teams, the difference of the speed vectors of both robots is taken and projected onto the line that is defined by the position of both robots. If the length of this projection is greater than 0.75 meters per second, the faster robot committed a foul. If the absolute robot speed difference is less than 0.3 meters per second, both conduct a foul.
 
 
 
@@ -153,7 +136,7 @@ The <<Referee, human referee>> may decide to repeat the <<Kick-Off, kick-off>> o
 NOTE: During <<Stop, stop>>, there is no automatic sanction for being too close to the ball. The referee may still punish a team for <<Unsporting Behavior,unsporting behavior>> by issuing a <<Yellow Card, yellow card>> if it does not respect the required distance. See <<Stop, stop>> for further explanation.
 
 ===== Robot Stop Speed
-A robot must not move faster than 1.5 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
+A robot must not move faster than 0.75 meters per second during <<Stop, stop>>. A violation of this rule is only counted once per robot and stoppage.
 
 There is a grace period of 2 seconds for the robots to slow down.
 

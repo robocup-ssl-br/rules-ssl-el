@@ -32,7 +32,7 @@ The <<Robot Handler, robot handler>> is the only team member that may talk to th
 * The referee ensures a safe match for all humans and robots
 * The referee ensures a fair match according to the rules of the Small Size League
 * The referee ensures that there is no interference by unauthorized persons or team members
-* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B). Subsequently, the referee resumes the match
+* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> or after every <<Stopping The Game, stoppage>>. Subsequently, the referee resumes the match
 * The referee ensures that the game is started and resumed in time
 
 ==== Assistant Referee
@@ -44,7 +44,7 @@ No team members are allowed to talk to the assistant referee.
 
 * The assistant referee indicates when misconduct or any other incident has occurred out of the view of the referee
 * The assistant referee discusses unclear situations with the referee
-* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> (division A) or after every <<Stopping The Game, stoppage>> (division B)
+* The referee or assistant referee places the ball for <<Kick-Off, kick-offs>> and <<Penalty Kick, penalties>> or after every <<Stopping The Game, stoppage>>
 
 
 ==== Game Controller Operator
@@ -113,7 +113,7 @@ NOTE: If a team does not want to use a keeper, it may select the id of a robot t
 
 === Game Stages
 ==== Overview
-An official match of the Small Size League consists of the following stages:
+An official match of the SSL-EL consists of the following stages:
 
 |===
 | Game Stage | Duration
@@ -150,12 +150,12 @@ NOTE: As a result, the time needed for a match is much greater than the playing 
 ==== Timeouts
 The <<Robot Handler, robot handler>> has to ask the referee for a timeout. Timeouts are handled like <<Overview, breaks>>, meaning that both teams are allowed to make modifications to their software and hardware (see <<Autonomy>>).
 
-Each team is allocated 4 timeouts at the beginning of the match. A total of 300 seconds is allowed for all timeouts. Timeouts may only be taken during a game
+Each team is allocated 4 timeouts at the beginning of the match. A total of 420 seconds is allowed for all timeouts. Timeouts may only be taken during a game
 stoppage. The time is monitored and recorded by the <<Game Controller Operator, game controller operator>>.
 
-NOTE: For example, a team may take 3 timeouts of 60 seconds duration and thereafter have only one timeout of up to 120 seconds duration.
+NOTE: For example, a team may take 3 timeouts of 110 seconds duration and thereafter have only one timeout of up to 90 seconds duration.
 
-During overtime, both teams can use 2 timeouts with a total time of 150 seconds. The number of timeouts and the time not used in regular game are not added.
+During overtime, both teams can use 2 timeouts with a total time of 240 seconds. The number of timeouts and the time not used in regular game are not added.
 
 No timeouts are possible in the <<Shoot-Out, shoot-out>> stage.
 
