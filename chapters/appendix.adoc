@@ -159,29 +159,3 @@ A visualized graph of the game events is stored as https://raw.githubusercontent
 | <<No Progress In Game>>                                             | 10 s
 |===
 
-[appendix]
-== Tiebreak criteria
-
-The following tiebreak criteria must be applied in the event of a group stage ranking (to determine team qualification order) or when a shootout ends in a stalemate.
-
-* In the group stage: the criteria are cumulative, meaning they are calculated over the entire course of the matches.
-* In elimination matches: the criteria are reset, meaning they apply only to that specific match and do not carry over.
-
-The criteria are listed below in order of priority, from most to least significant.
-
-. Most matches points.
-    * 3 points for each win.
-    * 1 point for each tie.
-    * 0 point for each loss.
-. Most wins.
-. Most goals differential.
-. Most goals for.
-. Robots perform a kickoff? (0 or 1 point).
-. Robots move according to the ball position? (0 or 1 point).
-    * E.g. goalkepper movement or defenders forming a barrier at defensive situations.
-. Robots respect the Game Controller commands? (0, 1 or 2 points).
-    * If the robots respects the Halt command, one point is added (the robots can`t move at the Halt command).
-    * If the robots respects the Force Start command, one point is added (the robots needs to move at the Force Start command).
-. Least yellow cards.
-
-If the criteria don't break the tie in an elimination match, a coin will be flipped to decide the winner.
