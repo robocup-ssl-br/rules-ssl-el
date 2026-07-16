@@ -1,7 +1,7 @@
 == League Overview
 === Committees
 The Small Size League (SSL), like every other league of the RoboCup, is run by close cooperation of three different committees (<<Executive Committee, executive committee>>, <<Technical Committee, technical committee>> and <<Organizing Committee, organizing committee>>), all with a different set of responsibilities. 
-In the case the Entry Level (SSL-EL) category, the committees are shared between the EL and the so-called regular category of the SSL (SSL-regular).
+In the case the Entry Level (SSL-EL) category, the committees are shared between the EL and the so-called regular category of the SSL (SSL-Regular).
 
 Additionally, the members of the <<Local Organizing Committee, local organizing committee>> organize the RoboCup event for all leagues.
 
